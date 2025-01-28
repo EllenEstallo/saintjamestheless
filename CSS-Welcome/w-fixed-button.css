@@ -1,0 +1,23 @@
+.masstimes-and-directions-link {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 1000;
+}
+
+.masstimes-and-directions-link a {
+  font-family: "Avenir Book", sans-serif;
+
+  font-size: 20px;
+  text-decoration: none;
+  background-color: darkslategrey;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: orangered 1px solid;
+  cursor: pointer;
+}
+
+.masstimes-and-directions-link a:hover {
+  color: yellow;
+}

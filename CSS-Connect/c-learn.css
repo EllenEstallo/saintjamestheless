@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  overflow-y: auto; /* vertical scrolling */
+  overflow-x: hidden; /* noo horizontal scrolling */
+  /*  */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.baptism-top-box {
+  margin-top: 100px;
+  margin-left: 150px;
+  width: 1200px;
+  /* height: 500px; */
+  /* background-color: aqua; */
+  /*  */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.baptism-content-box {
+  width: 800px;
+  padding-right: 50px;
+  /* height: 450px; */
+  /* background-color: bisque; */
+}
+
+.title {
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: red;
+}
+
+.baptism-quote {
+  margin-left: 50px;
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.content {
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  padding-right: 50px;
+}
+.baptism-image-box {
+  width: 400px;
+  /* height: 400px; */
+  /* background-color: chartreuse; */
+}
+
+.baptism-image-box img {
+  margin-top: 50px;
+  width: 100%;
+  /* height: auto; */
+  /* height: 400px; */
+  /* background-color: chocolate; */
+}
+
+.marriage-image-box img {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.baptism-bottom-box {
+  margin-left: 150px;
+  width: 1200px;
+}
+
+/* MARRIAGE */
+
+.marriage-box {
+  /* margin-top: 100px; */
+  padding-top: 100px;
+  margin-left: 150px;
+  width: 1200px;
+  /* height: 500px; */
+  /* background-color: aqua; */
+  /*  */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.marriage-image-box {
+  width: 400px;
+  /* height: 400px; */
+  /* background-color: chartreuse; */
+}
+
+.marriage-image-box img {
+  /* margin-top: 50px; */
+  margin-top: 0;
+  width: 100%;
+  height: auto;
+}
+.marriage-content-box {
+  width: 800px;
+  padding-left: 50px;
+  /* height: 450px; */
+  /* background-color: bisque; */
+}
+/* HOMEBOUND */
+
+.homebound-box {
+  padding-top: 200px;
+  /* padding-bottom: 60px; */
+  margin-left: 150px;
+  width: 1200px;
+  height: 500px;
+  /* background-color: brown; */
+  /*  */
+  flex-direction: row;
+  display: flex;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.homebound-content-box {
+  width: 1200px;
+  /* height: 500px; */
+  /* background-color: cadetblue; */
+  /*  */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.homebound-image-box {
+  width: 400px;
+  /* height: 500px; */
+  /* background-color: darkorchid; */
+}
+.homebound-image-box img {
+  margin-top: 0px;
+  padding-left: 50px;
+  width: 80%;
+  /* height: auto; */
+  /* height: 400px; */
+  /* background-color: chocolate; */
+}
+
+/* ANOINTING */
+
+.anointing-box {
+  padding-top: 200px;
+  margin-left: 150px;
+  width: 1200px;
+  /* height: 260px; */
+  /* background-color: darkorange; */
+  /*  */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.anointing-image-box {
+  width: 400px;
+  /* height: 260px; */
+  margin-top: 0;
+  /* background-color: fuchsia; */
+}
+
+.anointing-image-box img {
+  width: 100%;
+  height: auto;
+}
+
+.anointing-content-box {
+  width: 800px;
+  padding-left: 50px;
+  /* height: 260px; */
+  /* background-color: gold; */
+}
+
+.anointing-box-bottom {
+  /* padding-top: 150px; */
+  padding-bottom: 150px;
+
+  margin-left: 150px;
+  width: 1200px;
+  /* height: 260px; */
+  /* background-color: hotpink; */
+}
+/*  
+/* FUNERAL */
+
+.funeral-box {
+  /* padding-top: 130px; */
+  /* padding-bottom: 100px; */
+  margin-left: 150px;
+  width: 1200px;
+  /* height: 600px; */
+  /* background-color: indigo; */
+  /*  */
+  flex-direction: row;
+  display: flex;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.funeral-content-box {
+  margin-top: 0;
+  /* margin-left: 150px; */
+  width: 800px;
+  /* height: 580px; */
+  /* background-color: indianred; */
+  /*  */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.funeral-image-box {
+  width: 400px;
+  /* height: 400px; */
+  /* background-color: mediumturquoise; */
+}
+
+.funeral-image-box img {
+  margin-top: 50px;
+  padding-left: 50px;
+  /* margin-bottom: 50px; */
+  width: 80%;
+  height: auto;
+  /* height: 400px; */
+  /* background-color: chocolate; */
+}
+/*  
+      justify-content: space-between;
+      justify-content: center;
+      align-items: flex-start; /* Align items at the start (top) 
+      flex: 1; /* to take space */

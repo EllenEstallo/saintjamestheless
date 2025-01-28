@@ -1,0 +1,52 @@
+.navbar {
+  /* description */
+  background-color: rgba(47, 79, 79, 0.285);
+  /* border-bottom: 20px solid white; */
+  /* position */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.8rem;
+  /* z-index: 1000; */
+  /* display properties */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .logo {
+  flex: 1; /* logo to take up minimal space 
+} */
+
+/* .logo-image { 
+} */
+
+.text-logo,
+.text-logo a,
+.nav-links a,
+.nav-links i {
+  font-family: "Avenir Book", sans-serif;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.text-logo {
+  margin-left: 80px;
+}
+
+.nav-links {
+  display: flex; /* to align links  */
+  gap: 40px; /* Space between links  */
+  margin-right: 100px;
+}
+
+.nav-links i {
+  vertical-align: middle; /* Align icon with text */
+}
+
+.text-logo a:hover,
+.nav-links a:hover,
+.nav-links i:hover {
+  color: yellow;
+}

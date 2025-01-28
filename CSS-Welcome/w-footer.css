@@ -1,0 +1,32 @@
+.footer {
+  /* position: absolute; */
+  background-color: darkslategrey;
+  padding: 1em;
+  /* bottom: 0; */
+  width: 100%;
+  border-top: 5px solid white;
+}
+
+.church-address {
+  margin-left: 50px;
+  /* padding-top: 30px; */
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+}
+
+/* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*  text-align: center;} */
+/* z-index: 1; */
+
+/* .church-address {
+  padding-top: 50px;
+  margin-left: 50px;
+  color: white;
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+} */

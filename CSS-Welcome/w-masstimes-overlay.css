@@ -1,0 +1,165 @@
+#masstimes {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: 2000;
+  background-color: rgba(47, 79, 79, 0.497);
+
+  display: none; /* Initially hidden  */
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+
+  /* top:0; left:0; color:white;*/
+}
+/* container1 for "MASS TIMES & DIRECTIONS" */
+/* container4 for "Close" */
+.container1,
+.container4 {
+  /* dimensions */
+  width: 1300px;
+
+  /* display properties */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* text */
+  font-size: 32px;
+  color: white;
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+}
+
+.container1 {
+  background-color: rgb(28, 59, 28);
+  margin-top: -50px;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+}
+.container4 {
+  background-color: orangered;
+  border-top: 5px solid white;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  border-bottom: 5px solid white;
+  /* margin-top: 5px; */
+  /* border-bottom: 5px solid white; */
+}
+
+/* container 2 for column headings */
+.container1,
+.container2 {
+  height: 70px;
+}
+/* container 3 for column details */
+.container2,
+.container3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container3 {
+  text-align: left;
+}
+
+.box21,
+.box22,
+.box23,
+.box31,
+.box32,
+.box33 {
+  /* function */
+  display: flex;
+  flex-direction: column;
+  /* font */
+  color: darkslategrey;
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+  /* etc */
+  border-top: white solid 3px;
+  background-color: oldlace;
+}
+.box21,
+.box22,
+.box23 {
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  font-size: 24px;
+  color: red;
+  margin-top: -20px;
+  border-top: 2px solid darkslategrey;
+  line-height: 5px;
+}
+.box2text {
+  margin-top: -10px;
+}
+.box31,
+.box32,
+.box33 {
+  height: 450px;
+  font-size: 20px;
+  border-top: 2px solid darkslategrey;
+  margin-top: -30px;
+  border-bottom: 2px solid darkslategrey;
+}
+
+p {
+  line-height: 0.5;
+}
+.box21,
+.box31 {
+  width: 350px;
+  border-left: 3px solid white;
+}
+.box22,
+.box32 {
+  width: 450px;
+  border-left: 2px solid darkslategray;
+}
+
+.box23,
+.box33 {
+  width: 500px;
+  border-left: 2px solid darkslategray;
+  border-right: 3px solid white;
+}
+.box33 {
+  height: 450px;
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+/* Google maps: API Key: AIzaSyBQaXDN7csm4qykNS1eDNh6VcHCDFrlIOM */
+/* .map-embed {
+  width: 450px;
+  height: 430px;
+  border: 0;
+} */
+.container4 {
+  height: 50px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+button:hover {
+  color: yellow;
+  cursor: pointer;
+
+  padding: 5px 30px;
+  background-color: orangered;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}

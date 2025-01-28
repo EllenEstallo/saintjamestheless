@@ -1,0 +1,51 @@
+/*  */
+.dropdown {
+  position: relative;
+}
+/*  */
+
+.dropdown-content {
+  display: none;
+  /* hides by default, visible only when conditions are met (click, hover) */
+  position: absolute;
+  background-color: white;
+  /* background-color: #b5b7ba; */
+  padding-top: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 1px solid #ccc;
+  /*  */
+  left: 50%; /* Move it to the center */
+  transform: translateX(-50%); /* Adjust to center it */
+  white-space: nowrap; /* text doesn't wrap to a new line; width based on contents.*/
+  /* width: 250px; */
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:hover .dropdown-subcontent {
+  display: block;
+}
+
+.dropdown-content a,
+.dropdown-subcontent a {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  display: block;
+
+  font-family: "Avenir Book", sans-serif;
+  font-size: 20px;
+  /* padding: 0px 12px; */
+  /* padding: 8px, 16px; */
+}
+
+.dropdown-content a:hover,
+.dropdown-subcontent a:hover {
+  color: red;
+}
+.dropdown-subcontent {
+  margin-left: 20px;
+}
