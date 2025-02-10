@@ -19,3 +19,19 @@
   color: grey;
   line-height: 0.8;
 }
+/* for translate page */
+.church-name-box-for-translate-page {
+  position: absolute;
+  top: 80px;
+  left: 70px;
+  text-align: left;
+}
+
+.text-iglesia {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  padding-left: 10px;
+  /* color: white; */
+  color: grey;
+  /* line-height:  */
+}

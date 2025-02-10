@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  overflow-y: auto; /* vertical scrolling */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* box to the right of the church name box */
+.give-top-box {
+  margin-top: 100px;
+  margin-left: 540px;
+  /* height: 280px; */
+  width: 800px;
+}
+.title {
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: red;
+}
+
+.sub-title {
+  font-family: "Avenir Book", sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  color: red;
+}
+.give-middle-box {
+  margin-left: 120px;
+  /* height: 280px; */
+  width: 1160px;
+  /* background-color: mediumpurple; */
+}
+.content {
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  color: darkslategray;
+  font-weight: bolder;
+}
+.give-video-box {
+  margin-left: 160px;
+  padding-top: 40px;
+}
+
+/*  STEWARDSHIP OF TIME */
+
+#time,
+#talent {
+  padding-top: 100px;
+}
+.give-box-full {
+  margin-left: 120px;
+  width: 1160px;
+}
+
+.give-box-mid {
+  display: flex;
+  flex-direction: row;
+}
+.give-time-box-for-content {
+  margin-left: 120px;
+  width: 740px;
+  padding-right: 50px;
+}
+
+.give-box-for-image {
+  padding-top: 10px;
+  margin-left: 0px;
+  width: 400px;
+}
+.give-box-for-image img {
+  width: 100%;
+  padding-bottom: 10px;
+}
+.quote {
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  color: red;
+  font-weight: bolder;
+  font-style: italic;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.quote-source,
+.quote-source-1 {
+  margin-left: 600px;
+  font-family: "Avenir Book", sans-serif;
+  font-size: 20px;
+  color: red;
+  font-weight: bolder;
+  font-style: italic;
+}
+.quote-source-1 {
+  margin-left: 550px;
+}
+.time-list {
+  margin-left: 60px;
+}
+
+/* TALENT */
+.give-talent-box-mid {
+  display: flex;
+  flex-direction: row;
+}
+
+.give-talent-box-for-image {
+  margin-left: 120px;
+  width: 400px;
+}
+.give-talent-box-for-image img {
+  width: 100%;
+  /* padding-bottom: 10px; */
+}
+.give-mid-box-for-content {
+  margin-left: 120px;
+  width: 740px;
+  padding-right: 50px;
+}
+
+.give-talent-box-for-content {
+  margin-left: 50px;
+  width: 750px;
+}
+.talent-list-box {
+  display: flex;
+  flex-direction: row;
+}
+.talent-list {
+  margin-left: 100px;
+}
+.invite {
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  color: red;
+  font-weight: bolder;
+}
+#treasure {
+  padding-top: 100px;
+}

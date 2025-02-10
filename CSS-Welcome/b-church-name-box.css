@@ -1,0 +1,30 @@
+.church-name-box {
+  position: absolute;
+  top: 65px;
+  left: 50px;
+  text-align: left;
+  width: 1000px;
+}
+
+.text-iglesia {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  /* color: white; */
+  color: darkslategrey;
+  line-height: 0.9;
+}
+.text-james-less {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 100px;
+  /* color: white; */
+  color: darkslategrey;
+  line-height: 0.9;
+}
+
+.text-roman {
+  font-family: "Avenir Book", sans-serif;
+  font-size: 24px;
+  padding-left: 5px;
+  color: grey;
+  line-height: 0.8;
+}

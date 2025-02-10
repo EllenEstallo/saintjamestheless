@@ -1,0 +1,310 @@
+body {
+      margin: 0;
+      overflow-y: auto; /* vertical scrolling */
+      overflow-x: hidden; /* Prevents horizontal scrolling */
+    }
+    
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    /* box to the right of the church name */
+    .holy-mass-box {
+      margin-top: 190px;
+      margin-left: 500px;
+      width: 850px; /* ? am i to define a def width?*/
+      /* background-color: aquamarine; */
+      z-index: 2;
+    
+    }
+    .holy-mass-tagline-in-Spanish{
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 40px;
+      color: red;
+      padding-left: 80px;
+    }
+    /* .holy-mass-tagline {
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 40px;
+      color: red;
+      padding-left: 150px;
+    } */
+    
+    .schedule-box { /* box below  holy-mass-tagline*/
+      display: flex;
+      flex-direction: row;
+      padding-bottom: 140px;
+      /* background-color: burlywood; */
+    }
+    .sked-box {
+      width: 400px; 
+      /* background-color: darkorchid; */
+      margin-right: 15px;
+    }
+    
+    .sked-title {
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 32px;
+      color: orangered;
+      margin-bottom: -10px;
+    }
+    
+    .li-main, .li-sub {
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 24px;
+      color: darkslategrey;
+      margin-left: 20px;
+    }
+    
+    /* PRAYER AND RECONCILIATION */
+    .prayer-and-reconciliation-box {
+      /* height: 1000px;   */
+      background-color: darkslategrey;}
+    
+    .prayer-and-reconciliation-box {
+      display:flex; 
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
+    }
+    .prayer-and-reconciliation-tagline {
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 40px;
+      color: orange;
+      
+    }
+    .prayer-and-reconciliation-tagline {
+      padding-top: 140px;
+      
+    }
+    .confession-and-adoration-box {
+      /* height: 500px;  */
+      width: 1000px;
+      /* background-color: indigo;  */
+    }
+    
+    .confession-and-adoration-box {
+      display:flex; 
+      flex-direction: row;
+       /* align-items: center;  */
+       justify-content: center;
+      } 
+    
+      .prayer-box {
+        /* height: 100px;  */
+        width: 400px;
+        /* background-color: khaki; */
+      margin-right: 20px;}
+    
+    .prayer-title {
+       
+        font-family: "Avenir Book", sans-serif;
+        font-weight: bolder;
+        font-size: 32px;
+        color: orangered;
+        margin-bottom: -13px;
+    
+      
+      }
+      .prayer-li-main {
+        font-family: "Avenir Book", sans-serif;
+        font-weight: bolder;
+        font-size: 24px;
+        /* color: darkslategrey; */
+        color: white;
+        margin-left: 20px;
+      }
+    
+     /* /* SEASONAL SCHEDULE BOX (currently Lent)  */
+    .seasonal-box {
+        /* height:600px; */
+        /* background-color: lightcoral; */
+        /*  */
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        /* justify-content: center;  */
+        } 
+    
+     .seasonal-tagline {
+          font-family: "Avenir Book", sans-serif;
+          font-weight: bolder;
+          font-size: 40px;
+          color: red;
+        }
+    .seasonal-tagline{
+          padding-top: 60px;
+          
+        }
+    .seasonal-info-box{
+        /* height: 400px; */
+        width: 1200px;
+        /* background-color: firebrick; */
+        /* z-index: 5; */
+        /*  */
+        display: flex;
+        flex-direction: row;
+        /* align-items: center;  */
+        justify-content: center; 
+    }
+    
+    .seasonal-img-box{
+      /* height: 300px;  */
+      width: 430px;
+      /* background-color: greenyellow; */
+      margin-right: 100px;  
+      margin-top: 30px;
+    }
+    .seasonal-schedule-box{
+      /* height: 380px; */
+      width: 600px;
+      /* background-color: hotpink;  */
+      /* margin-right: 100px; */
+      padding-bottom: 80px;
+    }
+            
+  
+      .lenten-schedule-details-box 
+      {
+        height: 300px;
+        width: 300px;
+        background-color: honeydew;
+        margin-right: 50px;
+       }
+    
+       .holy-mass-tagline {
+        font-family: "Avenir Book", sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+        color: red;
+        padding-left: 150px;
+      } */
+      
+    /* FLEX RULES: 
+    
+    
+    direction 
+    flex-direction: row; OR
+    flex-direction: column; /* 
+    
+    Justify Content: how the browser distributes space between and around content items along the main axis.
+    justify-content: center; /* centers items horizontally 
+    (or flex-start, flex-end, space-between, space-around *
+    
+    Align Items: along the cross axis.
+    align-items: stretch; /* items stretch to fill the container (default) 
+    (or : flex-start, flex-end, center, baseline 
+    
+    Flex Wrap:
+    flex-wrap: wrap; /* items will wrap onto the next line if necessary 
+    or nowrap; /* items will stay on one line 
+    
+    Flex Grow, Shrink, and Basis -- flex items to grow or shrink to fit the container.
+    flex-grow: 1; /* item can grow to fill space 
+    flex-shrink: 1; /* item can shrink if needed 
+    flex-basis: 100px; /* initial size of the item */  
+    
+    /* .list {
+      margin-right: 100px;
+      margin-top: 0px;
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 24px;
+      color: darkslategrey;
+    } */
+    
+    
+    /* .pr-title {
+      color: white;
+    } */
+    /* box containing the lists */
+    /* .list {
+      margin-right: 100px;
+      margin-top: 0px;
+    }
+    
+    li {
+      font-family: "Avenir Book", sans-serif;
+      font-size: 24px;
+      color: darkslategray;
+      font-weight: bolder;
+      margin-left: 5px; /* for alignment to sked-title *
+    
+    
+    ul {
+      font-family: "Avenir Book", sans-serif;
+      font-size: 24px;
+      color: darkslategray;
+      font-weight: bolder;
+      margin-left: 5px; /* for alignment to sked-title *
+    
+    
+    /* PRAYER & CONFESSION *
+    .prayer-and-reconciliation {
+      margin-left: 0;
+      background-color: darkslategrey;
+      width: 100%;
+      z-index: 2;
+    }
+    .prayer-and-reconciliation {
+      text-align: center;
+    }
+    
+    .confession-and-adoration-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    .name,
+    .box-name {
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 30px;
+      color: white;
+    }
+    
+    .title,
+    .box-title {
+      font-family: "Avenir Book", sans-serif;
+      font-weight: bolder;
+      font-size: 24px;
+      color: rgb(135, 135, 133);
+    }
+    .title {
+      margin-top: -10px;
+      margin-bottom: 50px;
+    }
+    
+    .box {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .box {
+      width: 400px;
+    }
+    .box-title {
+      margin-top: -10px;
+      margin-bottom: 30px;
+    }
+    
+    .hours {
+      font-family: "Avenir Book", sans-serif;
+      font-size: 20px;
+      color: rgba(255, 166, 0, 0.927);
+      /* line-height: 0.5; *
+    } */
+    
+    /*  
+          justify-content: space-between;
+          justify-content: center;
+          align-items: flex-start; /* Align items at the start (top) 
+          flex: 1; to take space
+    
