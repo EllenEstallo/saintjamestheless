@@ -1,53 +1,58 @@
 .footer {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.7);
-  bottom: 0;
-  width: 100%;
-  /* padding: 20px; */
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /*  text-align: center;} */
-  z-index: 1;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	bottom: 0;
+	width: 100%;
 
-  /* font */
-  color: rgba(255, 255, 255, 0.6);
-  font-family: "Avenir Book", sans-serif;
-  font-weight: bolder;
-  font-size: 20px;
-  text-decoration: none;
+	padding: 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	z-index: 1;
+
+	color: rgba(255, 255, 255, 0.6);
+	font-family: "Avenir Book", sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	text-decoration: none;
 }
 
 .footer a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .church-address {
-  margin-left: 50px;
+	margin-left: 50px;
+	display: block;
 }
 .masstimes-and-directions-link a {
-  color: gainsboro;
-  padding: 10px 20px;
-  margin-right: 60px;
-  border-radius: 10px;
-  box-shadow: 0 10px 20px black;
-  transition: box-shadow 0.3s, transform 0.3s, background-color 0.3s;
-  cursor: pointer;
-  background: linear-gradient(145deg, #2b2b2b, #1e1e1e);
+	color: gainsboro;
+	padding: 10px 20px;
+	margin-right: 60px;
+	border-radius: 10px;
+	box-shadow: 0 10px 20px black;
+	transition: box-shadow 0.3s, transform 0.3s, background-color 0.3s;
+	cursor: pointer;
+	background: linear-gradient(145deg, #2b2b2b, #1e1e1e);
 }
 
 .masstimes-and-directions-link a:hover {
-  color: yellow;
-  /* background-color: rgba(0, 0, 0, 0.5); */
-  /* background-color: rgb(92, 2, 2); */
-  /* border-radius: 15px; */
-  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); */
-  /* transform: translateY(-2px); */
-  /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);  */
-  /* Stronger shadow on hover */
-  /* transform: translateY(-4px);  */
-  /* Slightly more lift */
-  /* padding: 10px 20px; */
-  margin-right: 60px;
+	color: yellow;
+
+	margin-right: 60px;
+}
+/* Iphone */
+@media (max-width: 767px) {
+	.church-address {
+		/* margin-left: 50px; */
+		display: none;
+	}
+}
+/* also include Ipad Mini */
+@media (max-width: 819px) {
+	.church-address {
+		/* margin-left: 50px; */
+		display: none;
+	}
 }

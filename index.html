@@ -1,200 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Saint James The Less</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <link rel="stylesheet" href="./CSS/navbar.css" />
-    <link rel="stylesheet" href="./CSS/dropdown.css" />
-    <link rel="stylesheet" href="./CSS/church-name-box.css" />
-    <link rel="stylesheet" href="./CSS/masstimes-overlay.css" />
-    <link rel="stylesheet" href="./CSS/footer.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <img src="./Assets/images/ChurchPhoto-vignette.png" alt="Church Photo" class="photo" />
-    <!-- navbar ############################-->
-    <nav class="navbar">
-      <div class="text-logo">
-        <a href="index.html">Logo</a>
-        <!-- <img src="logo-placeholder.png" alt="Logo" class="logo-image" />  -->
-      </div>
-      <div class="nav-links">
-        <div class="dropdown">
-          <a href="welcome.html">Welcome</a>
-          <div class="dropdown-content">
-            <a href="welcome.html">Our Parish Mission</a>
-            <a href="welcome.html#parish-leadership">Our Servant Leaders</a>
-            <!-- <!- close "dropdown-content" for Welcome> -- -->
-          </div>
-          <!-- <!- close "dropdown" for Welcome> -- -->
-        </div>
-        <div class="dropdown">
-          <a href="worship.html">Worship</a>
-          <div class="dropdown-content">
-            <a href="worship.html">Mass Times</a>
-            <a href="worship.html#prayer-and-reconciliation-box">Prayer & Confession</a>
-            <a href="worship.html#seasonal-box">Our Lenten Schedule</a>
-            <!-- <!- close "dropdown-content" for Worship> -- -->
-          </div>
-          <!-- <!-close "dropdown"> for Worship-- -->
-        </div>
-        <div class="dropdown">
-          <a href="connect.html">Connect</a>
-          <div class="dropdown-content">
-            <a href="connect.html">Be one of us.</a>
-            <div class="dropdown-subcontent">
-              <a href="connect.html">Parish Membership</a>
-              <!-- <!-close dropdown-subcontent -- -->
-            </div>
-            <a href="connect-learn.html">Learn with us.</a>
-            <div class="dropdown-subcontent">
-              <a href="connect-learn.html">Baptism</a>
-              <a href="connect-learn.html#marriage-box">Marriage</a>
-              <a href="connect-learn.html#homebound-box">Communion For The Homebound</a>
-              <a href="connect-learn.html#anointing-box">Anointing of the Sick</a>
-              <a href="connect-learn.html#funeral-box">Funeral Planning</a>
-              <!-- <!- close "dropdown-subcontent"> -- -->
-            </div>
-            <a href="ccd.html">Grow with us.</a>
-            <div class="dropdown-subcontent">
-              <a href="ccd.html">Religious Education (CCD)</a>
-              <!-- <!-close dropdown-subcontent -- -->
-            </div>
-            <!-- <!- close "dropdown-content"> -- -->
-          </div>
-          <!-- <!-close "dropdown"> for Connect-- -->
-        </div>
-        <div class="dropdown">
-          <a href="translate.html">Translate</a>
-          <!-- <!- close "dropdown"> for Give-- -->
-        </div>
-        <div class="dropdown">  
-            <a href="give.html">Give</a>
-            <div class="dropdown-content">
-                <a href="give.html">Stewardship.</a>
-                <div class="dropdown-subcontent">
-                    <a href="give.html#time">Time</a>
-                    <a href="give.html#talent">Talent</a>
-                    <a href="give.html#treasure">Treasure</a>
-                </div>
-            </div>
-        </div>
-        <!-- <!- close  ="nav-links"> -- -->
-      </div>
-    </nav>
-    <!-- NAV CLOSE ##################################################-->
-    <!-- CHURCH NAME BOX ##################################################-->
-    <div class="church-name-box">
-      <div class="text-james-less">ST. JAMES</div>
-      <div class="text-james-less">THE LESS</div>
-      <div class="text-roman">Roman Catholic Church</div>
-    </div>
-    <!-- CLOSE CHURCH NAME BOX##################################################-->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Saint James The Less</title>
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<link rel="stylesheet" href="./CSS/navbar.css" />
+		<link rel="stylesheet" href="./CSS/dropdown.css" />
+		<link rel="stylesheet" href="./CSS/church-name-box.css" />
+		<link rel="stylesheet" href="./CSS/masstimes-overlay.css" />
+		<link rel="stylesheet" href="./CSS/footer.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
 
-    <!-- MASS TIMES & DIRECTIONS -->
+	<body>
+		<img
+			src="./Assets/images/ChurchPhoto-vignette.png"
+			alt="Church Photo"
+			class="photo"
+		/>
 
-<!-- SECTION FOR MASSTIMES-OVERLAY TRIGGERED BY LINK IN FOOTER  -->
-<section id="masstimes">
-  <div class="container1">MASS TIMES & DIRECTIONS</div>
-  <div class="container2">
-    <div class="box21">
-      <div class="box2text">MASS</div>
-    </div>
-    <div class="box22">
-      <div class="box2text">CONFESSION, et.al.</div>
-    </div>
-    <div class="box23"><div class="box2text"></div>MAP</div></div>
-  </div>
-  <div class="container3">
-    <div class="box31">
-      <ul>
-        <li>Sunday Mass Schedule</li>
-        <ul>
-          <li>Saturday at 4:00 pm</li>
-          <li>Sunday:</li>
-          <ul>
-            <li>8:00 am</li>
-            <li>10:00 am</li>
-            <li>2:00 pm in Spanish</li>
-            <li>5:00 pm</li>
-          </ul>
-        </ul>
-        <br />
-        <li>Daily Mass Schedule</li>
-        <ul>
-          <li>Monday-Friday 8:30 am</li>
-        </ul>
-      </ul>
-    </div>
-    <div class="box32">
-      <ul>
-        <li>Confession</li>
-        <ul>
-          <li>Thursday at 4:30 pm</li>
-          <li>Saturday at 3:00 pm</li>
-        </ul>
-        <br />
-        <li>Eucharistic Adoration</li>
-        <ul>
-          <li>Thursday at 5:00pm</li>
-        </ul>
-        <br />
-        <li>Recitation of The Most Holy Rosary</li>
-        <ul>
-          <li>
-            before all masses on the first weekend
-            <div class="second-line">of the month</div>
-          </li>
-          <li>Sunday at 1:00 pm in Spanish</li>
-        </ul>
-        <br />
-        <li>Prayer for Divine Mercy</li>
-        <ul>
-          <li>
-            before the 10:00 am Sunday mass on
-            <div class="second-line">the second weekend of the month</div>
-          </li>
-        </ul>
-      </ul>
-    </div>
-    <div class="box33">
-      <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.4135216794502!2d-74.4425578240575!3d40.35535237144947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3daef7716a46f%3A0x96662c3ea029c5c6!2s36%20Lincoln%20Ave%2C%20Jamesburg%2C%20NJ%2008831!5e0!3m2!1sen!2sus!4v1736916892073!5m2!1sen!2sus"
-      width="450"
-      height="420"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe> 
-    </div>
-    
-  </div>
-  <div class="container4">
-    <button onclick="closeOverlay()">CLOSE</button>
-  </div>
-</section>
+		<nav class="navbar">
+			<div class="text-logo">
+				<a href="index.html">Logo</a>
+				<!-- <img src="logo-placeholder.png" alt="Logo" class="logo-image" />  -->
+			</div>
+
+			<div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+			<div id="hamburger"></div>
+
+			<!-- NAV-LINKS -->
+			<div class="nav-links">
+				<!-- WELCOME -->
+				<div class="dropdown">
+					<a href="welcome.html">Welcome</a>
+					<div class="dropdown-content">
+						<a href="welcome.html">Our Parish Mission</a>
+						<a href="welcome.html#parish-leadership">Our Servant Leaders</a>
+					</div>
+				</div>
+
+				<!-- WORSHIP -->
+				<div class="dropdown">
+					<a href="worship.html">Worship</a>
+					<div class="dropdown-content">
+						<a href="worship.html">Mass Times</a>
+						<a href="worship.html#prayer-and-reconciliation-box"
+							>Prayer & Confession</a
+						>
+						<a href="worship.html#seasonal-box">Our Lenten Schedule</a>
+					</div>
+				</div>
+
+				<!-- MORE for Tablet-->
+				<!-- <div class="more">
+					<div class="dropdown">
+						<a href="more.html">More</a>
+					</div>
+				</div> -->
+
+				<!-- CONNECT -->
+				<div class="connect">
+					<div class="dropdown">
+						<a href="connect.html">Connect</a>
+
+						<div class="dropdown-content">
+							<!-- Connect-Parish Membership:  Be With Us -->
+							<a href="connect.html">Be one of us.</a>
+							<div class="dropdown-subcontent">
+								<a href="connect.html">Parish Membership</a>
+							</div>
+
+							<!-- Connect-Sacraments:  Learn With Us -->
+							<a href="connect-learn.html">Learn with us.</a>
+							<div class="dropdown-subcontent">
+								<a href="connect-learn.html">Baptism</a>
+								<a href="connect-learn.html#marriage-box">Marriage</a>
+								<a href="connect-learn.html#homebound-box"
+									>Communion For The Homebound</a
+								>
+								<a href="connect-learn.html#anointing-box"
+									>Anointing of the Sick</a
+								>
+								<a href="connect-learn.html#funeral-box">Funeral Planning</a>
+							</div>
+
+							<!-- Connect-CCD:  Grow With Us -->
+							<a href="ccd.html">Grow with us.</a>
+							<div class="dropdown-subcontent">
+								<a href="ccd.html">Religious Education (CCD)</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Translate -->
+				<div class="translate">
+					<div class="dropdown">
+						<a href="translate.html">Translate</a>
+					</div>
+				</div>
+
+				<!-- Give -->
+				<div class="give">
+					<div class="dropdown">
+						<a href="give.html">Give</a>
+
+						<div class="dropdown-content">
+							<!-- Give: Stewardship -->
+							<a href="give.html">Stewardship.</a>
+							<div class="dropdown-subcontent">
+								<a href="give.html#time">Time</a>
+								<a href="give.html#talent">Talent</a>
+								<a href="give.html#treasure">Treasure</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- for mobile -->
+		<div class="vertical-menu" id="verticalMenu">
+			<!-- <div class="vertical-menu"> -->
+			<a href="welcome.html">Welcome</a>
+			<a href="worship.html">Worship</a>
+			<a href="connect.html">Connect</a>
+			<a href="translate.html">Translate</a>
+			<a href="give.html">Give</a>
+		</div>
+
+		<!-- CHURCH NAME BOX -->
+		<div class="church-name-box">
+			<div class="text-james-less">ST. JAMES</div>
+			<div class="text-james-less">THE LESS</div>
+			<div class="text-roman">Roman Catholic Church</div>
+		</div>
+
+		<div class="mobile-church-name">
+			<div class="mobile-james-less">ST. JAMES</div>
+			<div class="mobile-james-less">THE LESS</div>
+			<div class="mobile-roman">Roman Catholic Church</div>
+		</div>
+
+		<!-- SECTION FOR MASSTIMES-OVERLAY TRIGGERED BY LINK IN FOOTER  -->
+		<section id="masstimes">
+			<!-- Container 1 Main Heading:  Mass Times & Directionrs -->
+			<div class="container1">MASS TIMES & DIRECTIONS</div>
+
+			<!-- Container 2 column Headings:  Mass, Confession..., Map-->
+			<div class="container2">
+				<!-- Box 21: Column Mass  -->
+				<div class="box21">
+					<div class="box2text">MASS</div>
+				</div>
+
+				<!-- Box 22: Confession, et.al.  -->
+				<div class="box22">
+					<div class="box2text">CONFESSION, et.al.</div>
+				</div>
+
+				<!-- Box 23: Map  -->
+				<div class="box23">
+					<div class="box2text">MAP</div>
+				</div>
+			</div>
+
+			<!-- mobileButton -->
+			<div class="mobileButton-Mass">
+				<button onclick="showMassOnMobile()">MASS</button>
+			</div>
+
+			<div class="massOnMobile" style="display: none;">
+				<br>
+				<div class="mobileText">
+					Our Sunday Masses are on
+				</div>
+				<div class="mobileText">
+					Saturdays (anticipatory) at 4 pm,
+				</div>
+				<div class="mobileText">
+					Sundays at 8 am, 10 am, 2 pm
+				</div>
+				<div class="mobileText">
+					and at 5 pm.
+				</div>
+				<br>
+				<div class="mobileText">
+					We also have a 2 pm Mass
+				</div>
+				<div class="mobileText">
+					in Spanish.
+				</div>
+				<br>
+				<div class="mobileText">
+					Our Weekday Masses are  
+				</div>
+				<div class="mobileText">
+					Mondays through Fridays
+				</div>
+				<div class="mobileText">
+					at 8:30 am.
+				</div>
+				<br>
+			</div>
 
 
-    <!-- close MASS TIMES & DIRECTIONS -->
 
 
 
-    <!-- FOOTER ####################################################-->
-    <footer class="footer">
-      <div class="church-address">
-        36 Lincoln Ave., Jamesburg, NJ | 732-521-0100
-      </div>
-      <div class="masstimes-and-directions-link">
-        <a href="#masstimes">Mass Times & Directions</a>
-      </div>
-    </footer>
-    <!-- FOOTER CLOSE ####################################################-->
-  </body>
-  <script src="masstimes-overlay.js"></script>
+
+
+
+
+			</div>
+			<div class="mobileButton-Confession">
+				<button onclick="alert('mobileButton-Confession was clicked!')"> 
+					CONFESSION, et. al.
+				</button>
+			</div>
+
+			<div class="mobileButton-Map">
+				<button onclick="alert('mobileButton-Map was clicked!')">MAP</button>
+			</div>
+
+			<!-- tabletButton -->
+			<div class="tabletButton-Mass">
+				<button onclick="alert('tabletButton-Mass was clicked!')">TMASS</button>
+			</div>
+
+			<div class="tabletButton-Confession">
+				<button onclick="alert('tabletButton-Confession was clicked!')">
+					TCONFESSION, et. al.
+				</button>
+			</div>
+
+			<div class="tabletButton-Map">
+				<button onclick="alert('tabletButton-Map was clicked!')">TMAP</button>
+			</div>
+
+			<!-- Container 3 Details-->
+			<div class="container3">
+				<!-- Box 31: Mass Schedule-->
+				<div class="box31">
+					<ul>
+						<li>Sunday Mass Schedule</li>
+						<ul>
+							<li>Saturday at 4:00 pm</li>
+							<li>Sunday:</li>
+							<ul>
+								<li>8:00 am</li>
+								<li>10:00 am</li>
+								<li>2:00 pm in Spanish</li>
+								<li>5:00 pm</li>
+							</ul>
+						</ul>
+						<br />
+						<li>Daily Mass Schedule</li>
+						<ul>
+							<li>Monday-Friday 8:30 am</li>
+						</ul>
+					</ul>
+				</div>
+
+				<!-- Box 32: Confession Schedule-->
+				<div class="box32">
+					<ul>
+						<li>Confession</li>
+						<ul>
+							<li>Thursday at 4:30 pm</li>
+							<li>Saturday at 3:00 pm</li>
+						</ul>
+						<br />
+						<li>Eucharistic Adoration</li>
+						<ul>
+							<li>Thursday at 5:00pm</li>
+						</ul>
+						<br />
+						<li>Recitation of The Most Holy Rosary</li>
+						<ul>
+							<li>
+								before all masses on the first weekend
+								<div class="second-line">of the month</div>
+							</li>
+							<li>Sunday at 1:00 pm in Spanish</li>
+						</ul>
+						<br />
+						<li>Prayer for Divine Mercy</li>
+						<ul>
+							<li>
+								before the 10:00 am Sunday mass on
+								<div class="second-line">the second weekend of the month</div>
+							</li>
+						</ul>
+					</ul>
+				</div>
+
+				<!-- Box 33: Map-->
+				<div class="box33">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.4135216794502!2d-74.4425578240575!3d40.35535237144947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3daef7716a46f%3A0x96662c3ea029c5c6!2s36%20Lincoln%20Ave%2C%20Jamesburg%2C%20NJ%2008831!5e0!3m2!1sen!2sus!4v1736916892073!5m2!1sen!2sus"
+						width="450"
+						height="420"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</div>
+			</div>
+			<div class="container4">
+				<button onclick="closeOverlay()">CLOSE</button>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="church-address">
+				36 Lincoln Ave., Jamesburg, NJ | 732-521-0100
+			</div>
+			<div class="masstimes-and-directions-link">
+				<a href="#masstimes">Mass Times & Directions</a>
+			</div>
+		</footer>
+	</body>
+
+	<script src="masstimes-overlay.js"></script>
+	<script src="toggleMenu.js"></script>
+	<script>
+		function showMassOnMobile() {
+    document.querySelector('.massOnMobile').style.display = 'block'; 
+    alert('mobileButton-Mass was clicked!'); 
+}
+	</script>
 </html>

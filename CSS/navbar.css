@@ -1,52 +1,107 @@
 .navbar {
-  /* description */
-  background-color: rgba(47, 79, 79, 0.285);
-  /* border-bottom: 20px solid white; */
-  /* position */
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 0.8rem;
-  /* z-index: 1000; */
-  /* display properties */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+	background-color: rgba(47, 79, 79, 0.285);
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 0.8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
-/* .logo {
-  flex: 1; /* logo to take up minimal space 
-} */
-
-/* .logo-image { 
-} */
 
 .text-logo,
 .text-logo a,
 .nav-links a,
 .nav-links i {
-  font-family: "Avenir Book", sans-serif;
-  color: white;
-  font-size: 24px;
-  text-decoration: none;
+	font-family: "Avenir Book", sans-serif;
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
 }
 
 .text-logo {
-  margin-left: 80px;
+	margin-left: 80px;
+	display: block;
 }
 
 .nav-links {
-  display: flex; /* to align links  */
-  gap: 40px; /* Space between links  */
-  margin-right: 100px;
+	display: flex; /* to align links  */
+	gap: 40px; /* Space between links  */
+	margin-right: 100px;
 }
 
 .nav-links i {
-  vertical-align: middle; /* Align icon with text */
+	vertical-align: middle; /* Align icon with text */
 }
 
 .text-logo a:hover,
 .nav-links a:hover,
 .nav-links i:hover {
-  color: yellow;
+	color: yellow;
+}
+.more {
+	display: none;
+}
+
+.connect,
+.translate,
+.give {
+	display: block;
+}
+
+.hamburger {
+	display: none;
+}
+
+.vertical-menu {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	top: 80px;
+	left: 30px;
+}
+
+.vertical-menu a,
+.vertical-menu i {
+	text-decoration: none;
+	color: white;
+	padding-bottom: 6px;
+	display: block;
+
+	font-family: "Avenir Book", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+.vertical-menu a:hover,
+.vertical-menu i:hover {
+	color: yellow;
+}
+
+/* for Mobile */
+@media (max-width: 480px) {
+	.text-logo {
+		display: none;
+	}
+	.nav-links a {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+		color: white;
+		cursor: pointer;
+		margin-left: 30px;
+		font-size: 36px;
+	}
+}
+
+/*  for Tablet max-width: 768px */
+@media (max-width: 768px) {
+	.more {
+		display: block;
+	}
+	.connect,
+	.translate,
+	.give {
+		display: none;
+	}
 }

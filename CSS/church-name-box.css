@@ -1,37 +1,76 @@
 .church-name-box {
-  position: absolute;
-  top: 120px;
-  left: 70px;
-  text-align: left;
+	position: absolute;
+	top: 120px;
+	left: 70px;
+	text-align: left;
+	display: block;
 }
 
 .text-james-less {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 120px;
-  color: white;
-  line-height: 0.9;
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 120px;
+	color: white;
+	line-height: 0.9;
 }
 
 .text-roman {
-  font-family: "Avenir Book", sans-serif;
-  font-size: 24px;
-  padding-left: 5px;
-  color: grey;
-  line-height: 0.8;
+	font-family: "Avenir Book", sans-serif;
+	font-size: 24px;
+	padding-left: 5px;
+	color: grey;
+	line-height: 0.8;
 }
 /* for translate page */
 .church-name-box-for-translate-page {
-  position: absolute;
-  top: 80px;
-  left: 70px;
-  text-align: left;
+	position: absolute;
+	top: 80px;
+	left: 70px;
+	text-align: left;
 }
 
 .text-iglesia {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 50px;
-  padding-left: 10px;
-  /* color: white; */
-  color: grey;
-  /* line-height:  */
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 50px;
+	padding-left: 10px;
+	/* color: white; */
+	color: grey;
+	/* line-height:  */
+}
+
+/* for iphone */
+
+.mobile-church-name {
+	position: absolute;
+	top: 80px;
+	left: 20px;
+	text-align: left;
+	display: block;
+	display: none;
+	/* z-index: ; */
+}
+.mobile-james-less {
+	font-family: "Bebas Neue", sans-serif;
+	font-size: 60px;
+	color: white;
+	line-height: 1;
+}
+
+.mobile-roman {
+	font-family: "Avenir Book", sans-serif;
+	font-size: 12px;
+	padding-left: 5px;
+	color: white;
+	line-height: 0.8;
+}
+@media (max-width: 480px) {
+	.church-name-box {
+		display: none;
+	}
+	.mobile-church-name {
+		display: block;
+	}
+
+	/* .navnar + .mobile-church-name {
+		margin-top: 20px;
+	} */
 }
