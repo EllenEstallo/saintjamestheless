@@ -4,7 +4,7 @@
 	bottom: 0;
 	width: 100%;
 
-	padding: 1em;
+	padding: 1em 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -25,6 +25,9 @@
 .church-address {
 	margin-left: 50px;
 	display: block;
+}
+.masstimes-and-directions-link {
+	margin-left: 1em;
 }
 .masstimes-and-directions-link a {
 	color: gainsboro;
